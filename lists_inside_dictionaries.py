@@ -10,3 +10,8 @@ print(type(cart))
 print(type(cart['vegatables']))
 print(cart['vegatables'])
 print(cart['vegatables'][0])
+
+cart['fruits'][0] = 'Rena'
+print(cart)
+
+
